@@ -1,3 +1,6 @@
 [submodule "proposal"]
 	path = proposal
 	url = https://git.overleaf.com/9942384ckjmhykqqtnc
+[submodule "report"]
+	path = report
+	url = https://git.overleaf.com/10109703dwwprdccqrmq
