@@ -1,2 +1,13 @@
 #Ipython Notebook
 .ipynb_checkpoints
+
+# ./data directory
+data
+
+# Mac OS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
