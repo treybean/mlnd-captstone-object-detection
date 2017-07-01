@@ -9,5 +9,7 @@ def test_pascal_2007_downloads():
 def test_pascal_2007_extracts():
   assert os.path.exists('./data/pascal_2007/VOCdevkit'), 'VOCdevkit not found.'
 
-  #num_files = len([f for f in os.listdir(path)if os.path.isfile(os.path.join(path, f))])
+  image_path = './data/pascal_2007/VOCdevkit/VOC2007/JPEGImages'
+  num_images = len([f for f in os.listdir(image_path) if os.path.isfile(os.path.join(image_path, f))])
+  assert num_images == 9963, 'Not all PASCAL VOC 2007 images downloaded and extracted'
   print 'PASCAL VOC 2007 data files extracted.'
